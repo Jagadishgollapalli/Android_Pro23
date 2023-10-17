@@ -1,6 +1,7 @@
 package com.example.savethestarve;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.cardview.widget.CardView;
 
 import android.content.Intent;
 import android.os.Bundle;
@@ -15,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Button navigationButton = findViewById(R.id.DonateButton);
+        CardView navigationButton = findViewById(R.id.cardDonate);
         navigationButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -32,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
                 }
             }
         });
-        Button navigationButto = findViewById(R.id.receiveButton);
+        CardView navigationButto = findViewById(R.id.cardReceive);
         navigationButto.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -52,7 +53,7 @@ public class MainActivity extends AppCompatActivity {
         });
 
 
-        ImageButton navigationButton1 = findViewById(R.id.aboutusButton);
+        CardView navigationButton1 = findViewById(R.id.aboutusButton);
         navigationButton1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -66,7 +67,7 @@ public class MainActivity extends AppCompatActivity {
                 }
             }
         });
-        ImageButton navigationButtons = findViewById(R.id.customerButton);
+        CardView navigationButtons = findViewById(R.id.customerButton);
         navigationButtons.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
