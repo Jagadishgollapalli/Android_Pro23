@@ -5,7 +5,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#D3D3D3"
+    android:background="@drawable/skyblue"
     tools:context=".MainActivity">
 
     <LinearLayout
@@ -13,21 +13,14 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_margin="20dp"
-            android:layout_marginLeft="50dp"
-            android:text="SaveTheStarve"
-            android:textColor="@color/black"
-            android:textSize="24sp" />
+        <include layout="@layout/header" />
 
         <GridLayout
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:rowCount="4"
             android:columnCount="2"
-            android:layout_margin="5dp"
+            android:layout_margin="15dp"
             android:alignmentMode="alignMargins"
             android:layout_gravity="center"
             android:orientation="horizontal">
@@ -77,7 +70,6 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Receive"
-
                     android:textSize="18dp"
                     android:textColor="@color/white"
                     android:layout_marginTop="130dp"
@@ -171,7 +163,8 @@
                     android:textSize="18dp" />
             </androidx.cardview.widget.CardView>
 
-
         </GridLayout>
+
+        <include layout="@layout/footer" />
     </LinearLayout>
 </ScrollView>

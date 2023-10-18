@@ -4,52 +4,75 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:background="@drawable/bg">
+    android:background="@drawable/skyblue">
+
+    <include layout="@layout/donateheader" />
 
     <EditText
         android:id="@+id/editTextText"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_margin="30dp"
+        android:layout_width="360dp"
+        android:layout_height="50dp"
+        android:layout_margin="20dp"
+        android:layout_marginTop="5dp"
         android:ems="10"
         android:inputType="text"
-        android:hint="Name"
+        android:hint=" Name"
+        android:background="@drawable/edit_text_border"
+        android:textColorHint="#F4E4E4"
+        android:textColor="#F4E4E4"
         tools:layout_editor_absoluteX="75dp"
         tools:layout_editor_absoluteY="49dp"
         tools:ignore="MissingConstraints" />
 
     <EditText
         android:id="@+id/editTextText3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_margin="30dp"
+        android:layout_width="360dp"
+        android:layout_height="50dp"
+        android:layout_margin="20dp"
         android:ems="10"
         android:inputType="text"
-        android:hint="address"
+        android:hint=" address"
+        android:textColorHint="#F4E4E4"
+        android:textColor="#F4E4E4"
+        android:background="@drawable/edit_text_border"
         tools:layout_editor_absoluteX="75dp"
         tools:layout_editor_absoluteY="177dp"
         tools:ignore="MissingConstraints" />
 
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:text="Description"
+        android:textColor="#EDE5E5"
+        android:textSize="14dp" />
+
     <EditText
         android:id="@+id/editTextText4"
-        android:layout_width="212dp"
-        android:layout_height="207dp"
-        android:layout_margin="30dp"
+        android:layout_width="360dp"
+        android:layout_height="150dp"
+        android:layout_margin="20dp"
+        android:background="@drawable/edit_text_border"
         android:ems="10"
         android:inputType="text"
-        android:hint="Description"
+        android:textColorHint="#F4E4E4"
+        android:textColor="#F4E4E4"
+        tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="75dp"
-        tools:layout_editor_absoluteY="247dp"
-        tools:ignore="MissingConstraints" />
+        tools:layout_editor_absoluteY="247dp" />
 
     <EditText
         android:id="@+id/editTextPhone"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="260dp"
+        android:layout_height="50dp"
         android:layout_margin="30dp"
+        android:background="@drawable/edit_text_border"
         android:ems="10"
         android:inputType="phone"
-        android:hint="Phonenumber"
+        android:textColorHint="#F4E4E4"
+        android:textColor="#F4E4E4"
+        android:hint=" Phonenumber"
         tools:layout_editor_absoluteX="72dp"
         tools:layout_editor_absoluteY="108dp"
         tools:ignore="MissingConstraints" />
@@ -59,8 +82,9 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="30dp"
+        android:backgroundTint="#030855"
         android:text="submit"
+        tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="135dp"
-        tools:layout_editor_absoluteY="502dp"
-        tools:ignore="MissingConstraints" />
+        tools:layout_editor_absoluteY="502dp" />
 </LinearLayout>
