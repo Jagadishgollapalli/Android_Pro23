@@ -160,11 +160,6 @@
                     android:layout_gravity="center_horizontal"/>
             </androidx.cardview.widget.CardView>
 
-
-
-
         </GridLayout>
-
-        <include layout="@layout/footer" />
     </LinearLayout>
 </ScrollView>
