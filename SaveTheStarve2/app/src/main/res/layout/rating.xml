@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/RatingTV"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:text="RATING"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="99dp" />
+
+    <EditText
+        android:id="@+id/calcRatingET"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="108dp"
+        android:text="Rating for 5"
+        app:layout_constraintTop_toBottomOf="@id/RatingTV"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="25dp" />
+
+    <Button
+        android:id="@+id/submitBTN"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="76dp"
+        android:text="SUBMIT"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/calcRatingET"
+        tools:ignore="MissingConstraints" />
+
+
+</LinearLayout>

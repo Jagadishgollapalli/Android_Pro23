@@ -82,5 +82,20 @@ public class MainActivity extends AppCompatActivity {
 
             }
         });
+        CardView navigationButtonss = findViewById(R.id.ratingButton);
+        navigationButtonss.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                try {
+                    Intent in = new Intent(
+                            MainActivity.this, Rating.class);
+                    startActivity(in);
+                } catch (Exception e) {
+                    e.printStackTrace();
+
+                }
+
+            }
+        });
     }
 }
