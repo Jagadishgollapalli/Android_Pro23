@@ -32,7 +32,6 @@
                 android:layout_height="165dp"
                 app:cardCornerRadius="12dp"
                 app:cardElevation="5dp"
-
                 android:layout_margin="10dp">
                 <ImageView
                     android:layout_width="100dp"
@@ -44,7 +43,6 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Donate"
-
                     android:textSize="18dp"
                     android:textColor="@color/white"
                     android:layout_marginTop="130dp"
@@ -85,7 +83,6 @@
                 android:layout_height="165dp"
                 app:cardCornerRadius="12dp"
                 app:cardElevation="5dp"
-
                 android:layout_margin="10dp">
                 <ImageView
                     android:layout_width="100dp"
@@ -97,7 +94,6 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="CustomerSupport"
-
                     android:textSize="18dp"
                     android:textColor="@color/white"
                     android:layout_marginTop="130dp"
@@ -113,7 +109,6 @@
                 android:layout_height="165dp"
                 app:cardCornerRadius="12dp"
                 app:cardElevation="5dp"
-
                 android:layout_margin="10dp">
 
                 <ImageView
@@ -126,7 +121,6 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="About Us"
-
                     android:textSize="18dp"
                     android:textColor="@color/white"
                     android:layout_marginTop="130dp"
@@ -153,18 +147,12 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:text="Rating"
-
                     android:textSize="18dp"
                     android:textColor="@color/white"
                     android:layout_marginTop="130dp"
                     android:layout_gravity="center_horizontal"/>
             </androidx.cardview.widget.CardView>
-            <Button
-                android:id="@+id/logoutbutton"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
 
-                android:text="Logout" />
 
         </GridLayout>
     </LinearLayout>
