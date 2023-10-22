@@ -1,15 +1,20 @@
 package com.example.savethestarve;
 
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.cardview.widget.CardView;
-
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.ImageButton;
+import android.widget.TextView;
+
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.cardview.widget.CardView;
+
+import com.google.firebase.auth.FirebaseAuth;
+import com.google.firebase.auth.FirebaseUser;
 
 public class MainActivity extends AppCompatActivity {
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -33,7 +38,43 @@ public class MainActivity extends AppCompatActivity {
                 }
             }
         });
-        CardView navigationButto = findViewById(R.id.cardReceive);
+
+        FirebaseAuth auth;
+        Button button;
+        TextView Textview;
+        FirebaseUser user;
+
+
+
+
+            setContentView(R.layout.activity_main);
+            auth=FirebaseAuth.getInstance();
+            button=findViewById(R.id.logoutbutton);
+            //Textview=findViewById(R.id.user_details);
+            user=auth.getCurrentUser();
+
+            if(user==null)
+            {
+                Intent intent= new Intent(getApplicationContext(),Login.class);
+                startActivity(intent);
+                finish();
+            }
+            else {
+
+                //Textview.setText(user.getEmail());
+            }
+            button.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    FirebaseAuth.getInstance().signOut();
+                    Intent intent= new Intent(MainActivity.this,Login.class);
+                    startActivity(intent);
+                    finish();
+
+                }
+            });
+
+            CardView navigationButto = findViewById(R.id.cardReceive);
         navigationButto.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

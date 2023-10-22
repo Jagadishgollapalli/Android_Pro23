@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "204185977651",
+    "project_id": "savethestarve",
+    "storage_bucket": "savethestarve.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:204185977651:android:966343e9fe84e8c3fc3446",
+        "android_client_info": {
+          "package_name": "com.example.savethestarve"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBBYswRc0p53cmCjOsaAssZE8kTi8fUfIc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
