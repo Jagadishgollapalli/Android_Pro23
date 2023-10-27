@@ -14,30 +14,10 @@ import com.google.firebase.auth.FirebaseUser;
 
 public class MainActivity extends AppCompatActivity {
 
-
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
-        CardView navigationButton = findViewById(R.id.cardDonate);
-        navigationButton.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                try {
-                    // Create an Intent to navigate to the destination activity
-                    Intent intent = new Intent(
-                            MainActivity.this, DonateActivity.class);
-
-                    // Start the destination activity
-                    startActivity(intent);
-                } catch (Exception e) {
-                    e.printStackTrace();
-
-                }
-            }
-        });
 
         FirebaseAuth auth;
         Button button;
@@ -73,6 +53,22 @@ public class MainActivity extends AppCompatActivity {
 
                 }
             });
+
+        CardView navigationButton = findViewById(R.id.cardDonate);
+        navigationButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                try {
+                    // Create an Intent to navigate to the destination activity
+                    Intent intent = new Intent(MainActivity.this, DonateActivity.class);
+
+                    // Start the destination activity
+                    startActivity(intent);
+                } catch (Exception e) {
+                    e.printStackTrace(); // Log the exception
+                }
+            }
+        });
 
             CardView navigationButto = findViewById(R.id.cardReceive);
         navigationButto.setOnClickListener(new View.OnClickListener() {

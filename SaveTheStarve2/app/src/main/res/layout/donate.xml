@@ -9,26 +9,29 @@
     <include layout="@layout/donateheader" />
 
     <EditText
-        android:id="@+id/editTextText"
+        android:id="@+id/editTextName"
         android:layout_width="360dp"
         android:layout_height="50dp"
         android:layout_margin="20dp"
         android:layout_marginTop="5dp"
-        android:ems="10"
-        android:inputType="text"
-        android:hint=" Name"
+        android:paddingLeft="10dp"
         android:background="@drawable/edit_text_border"
-        android:textColorHint="#F4E4E4"
+        android:ems="10"
+        android:hint=" Name"
+        android:inputType="text"
+        android:textAlignment="viewStart"
         android:textColor="#F4E4E4"
+        android:textColorHint="#F4E4E4"
+        tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="75dp"
-        tools:layout_editor_absoluteY="49dp"
-        tools:ignore="MissingConstraints" />
+        tools:layout_editor_absoluteY="49dp" />
 
     <EditText
-        android:id="@+id/editTextText3"
+        android:id="@+id/editTextAddress"
         android:layout_width="360dp"
         android:layout_height="50dp"
         android:layout_margin="20dp"
+        android:paddingLeft="10dp"
         android:ems="10"
         android:inputType="text"
         android:hint=" address"
@@ -40,7 +43,7 @@
         tools:ignore="MissingConstraints" />
 
     <TextView
-        android:id="@+id/textView2"
+        android:id="@+id/textViewDescription"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="20dp"
@@ -49,13 +52,16 @@
         android:textSize="14dp" />
 
     <EditText
-        android:id="@+id/editTextText4"
+        android:id="@+id/editTextDescription"
         android:layout_width="360dp"
         android:layout_height="150dp"
         android:layout_margin="20dp"
+        android:paddingLeft="10dp"
+        android:paddingBottom="85dp"
+        android:ellipsize="end"
         android:background="@drawable/edit_text_border"
         android:ems="10"
-        android:inputType="text"
+        android:inputType="textMultiLine"
         android:textColorHint="#F4E4E4"
         android:textColor="#F4E4E4"
         tools:ignore="MissingConstraints"
@@ -67,6 +73,7 @@
         android:layout_width="260dp"
         android:layout_height="50dp"
         android:layout_margin="30dp"
+        android:paddingLeft="10dp"
         android:background="@drawable/edit_text_border"
         android:ems="10"
         android:inputType="phone"
@@ -78,7 +85,7 @@
         tools:ignore="MissingConstraints" />
 
     <Button
-        android:id="@+id/button3"
+        android:id="@+id/buttonSubmit"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="30dp"
