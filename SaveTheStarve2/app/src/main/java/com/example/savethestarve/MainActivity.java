@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
 
         FirebaseAuth auth;
         Button button;
-        TextView Textview;
+
         FirebaseUser user;
 
 
@@ -30,7 +30,6 @@ public class MainActivity extends AppCompatActivity {
             setContentView(R.layout.activity_main);
             auth=FirebaseAuth.getInstance();
             button=findViewById(R.id.logoutbutton);
-            //Textview=findViewById(R.id.user_details);
             user=auth.getCurrentUser();
 
             if(user==null)
@@ -119,8 +118,8 @@ public class MainActivity extends AppCompatActivity {
 
             }
         });
-        CardView navigationButtonss = findViewById(R.id.ratingButton);
-        navigationButtonss.setOnClickListener(new View.OnClickListener() {
+        CardView navigationButtons1 = findViewById(R.id.ratingButton);
+        navigationButtons1.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 try {
