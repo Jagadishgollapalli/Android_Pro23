@@ -104,7 +104,7 @@
             android:maxLines="20"
             android:singleLine="true"
             android:text="Have questions? call us at: +1 123-456-789)"
-            android:textColor="#F6E19F"
+            android:textColor="#f0f8ff"
             android:textSize="18sp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />

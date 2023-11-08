@@ -23,6 +23,33 @@ public class CustomerSupport extends AppCompatActivity {
         messageEditText = findViewById(R.id.message);
         submitButton = findViewById(R.id.submit);
 
+
+        submitButton.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                String customerName = nameEditText.getText().toString();
+                String customerEmail = emailEditText.getText().toString();
+                String customerMessage = messageEditText.getText().toString();
+
+                boolean dataSentToServer = sendDataToServer(customerName, customerEmail, customerMessage);
+
+                if (dataSentToServer) {
+
+                    Toast.makeText(CustomerSupport.this, "Data submitted successfully", Toast.LENGTH_SHORT).show();
+                } else {
+                    // Handle errors or show an error message
+                    Toast.makeText(CustomerSupport.this, "Failed to submit data", Toast.LENGTH_SHORT).show();
+                }
+            }
+        });
     }
 
+    private boolean sendDataToServer(String name, String email, String message) {
+
+        return true;
+    }
 }
+
+
+
+
