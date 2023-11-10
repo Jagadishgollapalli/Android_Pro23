@@ -34,6 +34,7 @@
             android:textColorHint="#F4E4E4"
             android:textDirection="inherit"
             android:textSize="20sp"
+            android:textColor="#FFFFFF"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
@@ -52,6 +53,7 @@
             android:singleLine="true"
             android:textColorHint="#FDF3F3"
             android:textSize="20sp"
+            android:textColor="#FFFFFF"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
@@ -71,6 +73,7 @@
             android:textColorHint="#F8EEEE"
             android:textSize="16sp"
             android:textStyle="normal"
+            android:textColor="#FFFFFF"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
@@ -102,6 +105,7 @@
             android:importantForAutofill="no"
             android:inputType="text"
             android:maxLines="20"
+            android:minHeight="48dp"
             android:singleLine="true"
             android:text="Have questions? call us at: +1 123-456-789)"
             android:textColor="#f0f8ff"
@@ -138,7 +142,7 @@
             android:layout_marginTop="384dp"
             android:text="Description"
             android:textColor="#EDE5E5"
-            android:textSize="14dp"
+            android:textSize="20dp"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
