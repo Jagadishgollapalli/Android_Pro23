@@ -1,51 +1,42 @@
 package com.example.savethestarve;
-
+import android.content.Intent;
 import android.os.Bundle;
-import android.util.Log;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
-import android.widget.Toast;
 
-public class DonateActivity extends MainActivity {
+import androidx.appcompat.app.AppCompatActivity;
 
-    EditText name;
-    EditText address;
-    EditText description;
-    EditText phoneNumber;
-    Button submit;
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.donate);
-        try{
-            name = findViewById(R.id.editTextName);
-            address = findViewById(R.id.editTextAddress);
-            description = findViewById(R.id.editTextDescription);
-            phoneNumber = findViewById(R.id.editTextPhone);
-            submit = findViewById(R.id.buttonSubmit);
+import java.util.ArrayList;
+import java.util.List;
 
-            submit.setOnClickListener(new View.OnClickListener() {
+        public class DonateActivity extends AppCompatActivity {
+
+                private EditText nameEditText;
+                private EditText addressEditText;
+                private Button submitButton;
+                private List<String> donationList = new ArrayList<>();
+
                 @Override
-                public void onClick(View view) {
-                    String userName = name.getText().toString();
-                    String userAddress = address.getText().toString();
-                    String userDescription = description.getText().toString();
-                    String userMobile = phoneNumber.getText().toString();
+                protected void onCreate(Bundle savedInstanceState) {
+                    super.onCreate(savedInstanceState);
+                    setContentView(R.layout.donate);
 
-                    if(userName.isEmpty() || userAddress.isEmpty() || userDescription.isEmpty() || userMobile.isEmpty()){
-                        Toast.makeText(getApplicationContext(), "Enter all inputs", Toast.LENGTH_LONG).show();
-                    }else{
-                        name.setText("");
-                        address.setText("");
-                        description.setText("");
-                        phoneNumber.setText("");
-                        Toast.makeText(getApplicationContext(),"Details submitted successfully", Toast.LENGTH_LONG).show();
-                    }
+                    nameEditText = findViewById(R.id.editTextText);
+                    addressEditText = findViewById(R.id.editTextText3);
+                    submitButton = findViewById(R.id.button3);
+
+                    submitButton.setOnClickListener(new View.OnClickListener() {
+                        @Override
+                        public void onClick(View v) {
+                            String name = nameEditText.getText().toString();
+                            String address = addressEditText.getText().toString();
+                            donationList.add(name + " - " + address);
+
+                            Intent intent = new Intent(DonateActivity.this, RecieveActivity.class);
+                            intent.putStringArrayListExtra("donationList", new ArrayList<>(donationList));
+                            startActivity(intent);
+                        }
+                    });
                 }
-            });
-        }catch(Exception e){
-
-        }
-    }
-}
+            }
