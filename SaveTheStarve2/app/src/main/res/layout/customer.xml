@@ -66,6 +66,7 @@
             android:background="@drawable/edit_text_border"
             android:fontFamily="@font/b612"
             android:importantForAutofill="no"
+            android:text="Message"
             android:inputType="text"
             android:maxLines="20"
             android:singleLine="true"

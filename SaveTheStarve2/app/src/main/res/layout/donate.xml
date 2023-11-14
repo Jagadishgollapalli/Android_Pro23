@@ -9,7 +9,7 @@
     <include layout="@layout/donateheader" />
 
     <EditText
-        android:id="@+id/editTextName"
+        android:id="@+id/editTextText"
         android:layout_width="360dp"
         android:layout_height="50dp"
         android:layout_margin="20dp"
@@ -27,7 +27,7 @@
         tools:layout_editor_absoluteY="49dp" />
 
     <EditText
-        android:id="@+id/editTextAddress"
+        android:id="@+id/editTextText3"
         android:layout_width="360dp"
         android:layout_height="50dp"
         android:layout_margin="20dp"
@@ -85,7 +85,7 @@
         tools:ignore="MissingConstraints" />
 
     <Button
-        android:id="@+id/buttonSubmit"
+        android:id="@+id/button3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="30dp"
