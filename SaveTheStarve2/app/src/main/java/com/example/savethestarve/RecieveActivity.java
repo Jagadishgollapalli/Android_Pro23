@@ -9,6 +9,7 @@ import android.widget.Toast;
 import android.widget.EditText;
 
 
+import java.util.ArrayList;
 import java.util.List;
 
 public class RecieveActivity extends MainActivity {
@@ -35,8 +36,13 @@ public class RecieveActivity extends MainActivity {
         Intent intent = getIntent();
         userDetailsList = intent.getStringArrayListExtra("USER_DETAILS_LIST");
 
+
+            updateTextView();
+            // Rest of your code...
+
+
         // Display the list in the TextView
-        updateTextView();
+
 
         // Handle selection button click
         submitBtn.setOnClickListener(new View.OnClickListener() {
@@ -71,11 +77,17 @@ public class RecieveActivity extends MainActivity {
 
     // Update the TextView with the modified userDetailsList
     private void updateTextView() {
-        StringBuilder userDetailsStringBuilder = new StringBuilder();
-        for (String userDetails : userDetailsList) {
-            userDetailsStringBuilder.append(userDetails).append("\n\n");
+
+        if (userDetailsList != null) {
+            // Display the list in the TextView
+            StringBuilder userDetailsStringBuilder = new StringBuilder();
+            for (String userDetails : userDetailsList) {
+                userDetailsStringBuilder.append(userDetails).append("\n\n");
+            }
+            userDetailsTextView.setText(userDetailsStringBuilder.toString());
+        } else {
+            userDetailsTextView.setText("No Donars found at this moment");
         }
-        userDetailsTextView.setText(userDetailsStringBuilder.toString());
     }
 }
 
