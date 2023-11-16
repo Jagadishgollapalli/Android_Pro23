@@ -77,7 +77,6 @@ public class MainActivity extends AppCompatActivity {
                     // Create an Intent to navigate to the destination activity
                     Intent intent = new Intent(
                             MainActivity.this, RecieveActivity.class);
-
                     // Start the destination activity
                     startActivity(intent);
                 } catch (Exception e) {

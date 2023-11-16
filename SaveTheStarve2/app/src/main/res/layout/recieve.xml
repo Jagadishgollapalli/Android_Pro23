@@ -15,7 +15,7 @@
         android:id="@+id/NameET"
         android:layout_width="360dp"
         android:layout_height="50dp"
-        android:layout_margin="20dp"
+        android:layout_margin="18dp"
         android:textAlignment="textStart"
         android:layout_marginStart="2dp"
         android:background="@drawable/edit_text_border"
@@ -32,7 +32,7 @@
         android:id="@+id/AddressET"
         android:layout_width="360dp"
         android:layout_height="50dp"
-        android:layout_margin="20dp"
+        android:layout_margin="18dp"
         android:background="@drawable/edit_text_border"
         android:ems="10"
         android:hint=" Reciever Address"
@@ -42,6 +42,22 @@
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="76dp"
         tools:layout_editor_absoluteY="134dp" />
+
+    <EditText
+        android:id="@+id/selectDonor"
+        android:layout_width="360dp"
+        android:layout_height="50dp"
+        android:layout_margin="18dp"
+        android:background="@drawable/edit_text_border"
+        android:ems="10"
+        android:hint=" Select donor from list"
+        android:inputType="text"
+        android:textColorHint="@color/white"
+        android:textColor="#F4E4E4"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="76dp"
+        tools:layout_editor_absoluteY="134dp" />
+
     <TextView
         android:id="@+id/userDetailsTextView"
         android:layout_width="match_parent"
@@ -49,6 +65,7 @@
         android:layout_marginTop="20dp"
         android:textColor="@android:color/white"
         android:textSize="16sp"
+        android:paddingStart="36dp"
         android:gravity="start"
         tools:ignore="MissingConstraints"
         tools:layout_editor_absoluteX="76dp"
@@ -76,7 +93,7 @@
             android:divider="@null"
             android:dividerHeight="0dp"
             android:background="@android:color/transparent"
-            android:padding="16dp"
+            android:paddingStart="16dp"
             android:clipToPadding="false" />
 
     </RelativeLayout>
