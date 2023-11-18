@@ -29,7 +29,7 @@ My **Fourth commit** message is modified customer support xml file to resolve er
 | jagadish@gmail.com  | 123456   |
 | nandini@gmail.com   | 123456   |
 
-- We tested our app in **PIXEL 5 API 34** and **SAMSUNG GALAXY S9(Using GENYMOTION)**
+- We tested our app in AVD Emulator **PIXEL 5 API 34** and **SAMSUNG GALAXY S9(Using GENYMOTION)**
 
 > Title of our Application
 - **SaveTheStarve**
