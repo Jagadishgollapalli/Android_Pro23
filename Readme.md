@@ -1,5 +1,5 @@
 # Android project- Team07
-- Jagadish Gollapalli - Worked on functionality implementation for ReceiverActivity.java and enhanced all UI layouts.
+- Jagadish Gollapalli - Worked on functionality implementation for ReceiverActivity.java and enhanced all UI layouts.<br>
 My **First commit** modified all UI layouts for all pages<br>
 My **Second commit** added functionality for donate activity with hardcoded values for submission.<br>
 My **Third commit** implemented the functionality for receiveActivity.java.<br>
