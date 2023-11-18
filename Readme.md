@@ -1,6 +1,6 @@
 # Android project- Team07
 - Jagadish Gollapalli - Worked on functionality implementation for ReceiverActivity.java and enhanced all UI layouts.
-- Nandini Devabattula - Worked on firebase implementation and functionality implementation for DonateActivity.java.
+- Nandini Devabattula - Worked on firebase implementation and functionality implementation for DonateActivity.java 
 - Neeha Beerkur       - Worked on AboutUs activity xml and java files.
 - Divya Chelikani     - Worked on Customer Support activity xml layouts.
 ---
