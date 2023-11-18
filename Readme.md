@@ -13,7 +13,6 @@ My **Second commit** message is finished  java code for  customer support<br>
 My **Third commit** message is modified the customer support xml file<br>
 My **Fourth commit** message is modified customer support xml file to resolve errors.
 
-- 
 ---
 > *Test Credentials for app*
 <br>
