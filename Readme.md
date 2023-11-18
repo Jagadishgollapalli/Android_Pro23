@@ -7,7 +7,7 @@ My **Fourth Commit** is **Implemented Firebase authentication inorder to validat
 My **fifth commit** is **modified and removed the unwanted textviews** - As part of this commit i have removed few unwanted textviews.<br>
 My **sixth commit** is **implemented the list functionality for donate activity and navigated** - As part of this i have implemented the list functionality in DonateActivity.java to take all the details from the form and append to list in the recieve activity.<br>
 My **Seventh commit** is **Implemented the functionality changes for recieve activity and resolv…** - As part of this i have resolved the app crashes issues.<br><br> 
-- Neeha Beerkur       - Worked on AboutUs activity xml and java files.
+- Neeha Beerkur       - Worked on AboutUs activity xml and java files.<br>
 My **First commit** added java code for about us.<br>
 My **Second commit** implemented the java code for receive activity.<br>
 My **Third commit** added functionality to navigate to receive page.<br>
