@@ -15,10 +15,11 @@ My **Seventh commit** is **Implemented the functionality changes for recieve act
 My **First commit** added java code for about us.<br>
 My **Second commit** added functionality to navigate to receive page.<br>
 My **Third commit** modified the receive layout.<br>
-- Divya Chelikani  -  My **First commit** message is implemented java code for customer support.<br>
-My **Second commit** message is finished  java code for  customer support<br>
-My **Third commit** message is modified the customer support xml file<br>
-My **Fourth commit** message is modified customer support xml file to resolve errors.
+- Divya Chelikani  - My **First commit** message is added register page which allows users to register as part of this i have worked on customer support.xml file and created intent.<br>
+- My **Second commit** message is implemented java code for customer support.<br>
+My **Third commit** message is finished  java code for  customer support<br>
+My **Fourth commit** message is modified the customer support xml file<br>
+My **Fifth commit** message is modified customer support xml file to resolve errors.
 
 ---
 > *Test Credentials for app*
