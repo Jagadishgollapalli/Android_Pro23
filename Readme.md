@@ -11,14 +11,17 @@ My **Fourth Commit** is **Implemented Firebase authentication inorder to validat
 My **fifth commit** is **modified and removed the unwanted textviews** - As part of this commit i have removed few unwanted textviews.<br>
 My **sixth commit** is **implemented the list functionality for donate activity and navigated** - As part of this i have implemented the list functionality in DonateActivity.java to take all the details from the form and append to list in the recieve activity.<br>
 My **Seventh commit** is **Implemented the functionality changes for recieve activity and resolv…** - As part of this i have resolved the app crashes issues.<br><br> 
-- Neeha Beerkur       - Worked on AboutUs activity xml and java files.<br>
-My **First commit** added java code for about us.<br>
-My **Second commit** added functionality to navigate to receive page.<br>
-My **Third commit** modified the receive layout.<br>
-- Divya Chelikani  -  My **First commit** message is implemented java code for customer support.<br>
-My **Second commit** message is finished  java code for  customer support<br>
-My **Third commit** message is modified the customer support xml file<br>
-My **Fourth commit** message is modified customer support xml file to resolve errors.
+- Neeha Beerkur - My **First commit** added login pages which allows user to login and modified intents **Modified the aboutUs layout** As a part of this i have written code for aboutUs.xml file and created intents.<br>
+My **Second commit**  worked and added rating.xml file.
+My **Third commit** added java code for about us.<br>
+My **Fourth commit** Implemented the java code for receive activity.<br>
+My **Fifth commit** added functionality to navigate to receive page.<br>
+My **Sixth commit** modified the receive layout.<br>
+- Divya Chelikani  - My **First commit** message is added register page which allows users to register as part of this i have worked on customer support.xml file and created intent.<br>
+- My **Second commit** message is implemented java code for customer support.<br>
+My **Third commit** message is finished  java code for  customer support<br>
+My **Fourth commit** message is modified the customer support xml file<br>
+My **Fifth commit** message is modified customer support xml file to resolve errors.
 
 ---
 > *Test Credentials for app*
