@@ -1,41 +1,57 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    xmlns:app="http://schemas.android.com/apk/res-auto">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_alignParentTop="true"
+    android:layout_marginTop="20dp"
+    android:orientation="vertical">
 
-    <TextView
-        android:id="@+id/RatingTV"
-        android:layout_width="100dp"
-        android:layout_height="50dp"
-        android:text="RATING"
-        android:textSize="20sp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteY="99dp" />
+    <include layout="@layout/rating_header" />
 
-    <EditText
-        android:id="@+id/calcRatingET"
-        android:layout_width="200dp"
+    <LinearLayout
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="108dp"
-        android:text="Rating for 5"
-        app:layout_constraintTop_toBottomOf="@id/RatingTV"
-        tools:ignore="MissingConstraints"
-        tools:layout_editor_absoluteX="25dp" />
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/editTextRating"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="110dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="2dp"
+            android:layout_marginBottom="20dp"
+            android:inputType="number"
+            android:textSize="25dp" />
+
+        <TextView
+            android:id="@+id/outOfTen"
+            android:layout_width="70dp"
+            android:layout_height="wrap_content"
+            android:text="/10"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="25dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginBottom="20dp"
+            android:textSize="40dp" />
+
+
+    </LinearLayout>
 
     <Button
-        android:id="@+id/submitBTN"
-        android:layout_width="wrap_content"
+        android:id="@+id/submitRatingButton"
+        android:layout_width="130dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="76dp"
-        android:text="SUBMIT"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@id/calcRatingET"
-        tools:ignore="MissingConstraints" />
+        android:layout_marginStart="120dp"
+        android:backgroundTint="#06AAAA"
+        android:text="Submit" />
 
+    <ListView
+        android:id="@+id/listViewRatings"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp" />
 
 </LinearLayout>
