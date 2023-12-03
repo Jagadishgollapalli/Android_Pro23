@@ -86,7 +86,7 @@ Test Credentials:<br>
   -  Worked in changing the look for the rating.xml file.<br>
   -  resolved errors related to crashing by modifiying the code in the respective java files.
 
- - Jagadish Gollapalli
+Jagadish Gollapalli
  - Worked on functionality implementation for ReceiverActivity.java and enhanced all UI layouts.<br>
  - Modified UI for all layouts(login, register, aboutUS and Customer support layouts)<br>
  - Added functionality for donate activity with hardcoded values that allow users/donaters for donations.<br>
