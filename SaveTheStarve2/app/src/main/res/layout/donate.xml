@@ -74,6 +74,7 @@
         android:layout_height="50dp"
         android:layout_margin="30dp"
 
+
         android:paddingLeft="10dp"
         android:background="@drawable/edit_text_border"
         android:ems="10"

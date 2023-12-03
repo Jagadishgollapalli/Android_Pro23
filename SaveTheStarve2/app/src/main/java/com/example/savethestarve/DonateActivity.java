@@ -18,6 +18,7 @@ public class DonateActivity extends AppCompatActivity {
     EditText description;
     EditText phoneNumber;
 
+
     Button submit;
 
     @Override
