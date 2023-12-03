@@ -44,7 +44,7 @@ Our Android app, Save the Starve, serves as a vital platform addressing informat
 - FireBase Database: To store user credentials or any information we have used Firebase as a database.<br>
 
   
-**Firebase database link which is used as storage for our application**:
+**Firebase database link which is used as storage for our application**:https://console.firebase.google.com/u/0/project/savethestarve/authentication/users
 
 **GitHub Repo link**: https://github.com/Jagadishgollapalli/Android_Pro23
 
@@ -74,6 +74,17 @@ Test Credentials:<br>
   -  Modified the Java code for the customer support.It used to provide the support for the user for any queries.<br>
   -  Modified the layout structure and resolved errors for the Customer support.xml file.<br>
   -  Modified the rating.xml file and resolved errors.
+
+ Nandini Devabattula
+  -  Implemented the Firebase authentication process for login and registration pages.<br>
+  -  implemented the intent functionality for 2 modules. <br>
+  -  modified the layout to cardview and added a new module rating.
+  -  Worked on Donate activity java code complete implementation and navigation to recieve activity and enhanced the look of the application.<br>
+  -  implemented the list functionality in DonateActivity.java to take all the details from the form and append to list in the recieve activity. <br>
+  -  Involved in the functionality changes for the recieve activity.<br>
+  -  Modified the java code and implemented the list functionality for rating activity.<br>
+  -  Worked in changing the look for the rating.xml file.<br>
+  -  resolved errors related to crashing by modifiying the code in the respective java files.
   
 
   
