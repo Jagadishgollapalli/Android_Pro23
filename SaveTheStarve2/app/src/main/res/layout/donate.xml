@@ -27,7 +27,7 @@
         tools:layout_editor_absoluteY="49dp" />
 
     <EditText
-        android:id="@+id/editTextAddress"
+        android:id="@+id/editTextText3"
         android:layout_width="360dp"
         android:layout_height="50dp"
         android:layout_margin="20dp"
@@ -43,7 +43,7 @@
         tools:ignore="MissingConstraints" />
 
     <TextView
-        android:id="@+id/textViewDescription"
+        android:id="@+id/editTextAddress"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_margin="20dp"

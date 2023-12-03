@@ -110,6 +110,7 @@
             android:importantForAutofill="no"
             android:inputType="text"
             android:maxLines="20"
+            android:minHeight="48dp"
             android:singleLine="true"
             android:text="Have questions? call us at: +1 123-456-789)"
             android:textColor="#F6E19F"
@@ -148,7 +149,8 @@
             android:textColor="#EDE5E5"
             android:textSize="14dp"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="TextSizeCheck" />
 
 
     </androidx.constraintlayout.widget.ConstraintLayout>
