@@ -8,7 +8,7 @@
 <br>
 
 > **Team Members**
--
+
 1. Jagadish Gollapalli<br>
 2. SaiNandini Devabattula<br>
 3. Neeha Beerkur<br>
@@ -18,8 +18,15 @@
 Our Android app, Save the Starve, serves as a vital platform addressing information related to food availability. The primary purpose of this app is to facilitate food donations to those in need. Individuals seeking food assistance have the opportunity to receive donations from generous donors available on the platform. In case users encounter any issues or have inquiries concerning the donated food, our dedicated customer support team is readily available for assistance.To enhance user understanding and engagement, our About Us functionality provides comprehensive details about the app, and users can also stay connected through social media channels. Additionally, users have the ability to share their feedback by providing ratings within the app, ensuring a collaborative and supportive community.
 
 **Features**
-- 
-> *Test Credentials for app*
+- Users can log in if they are returning users or sign up to access the application's full features.Once logged in, users can seamlessly donate 
+  or receive food based on their preferences and needs.<br>
+- Receivers can provide their details and conveniently check the list of available donors offering food.<br>
+- Donors can share their details and provide descriptions of the available food they are willing to contribute.<br>
+- The application includes an About Us section, offering comprehensive information about the purpose and features of the platform.<br>
+- Users have access to a Customer Support functionality, making it easy to contact the support team for any queries or assistance.<br>
+- Users can provide ratings, offering valuable feedback on the quality of food or their overall experience with the application.<br>
+
+> **Test Credentials for app**
 <br>
 
 | Email               | Password |
@@ -39,7 +46,7 @@ Our Android app, Save the Starve, serves as a vital platform addressing informat
   
 **Firebase database link which is used as storage for our application**:
 
-**GitHub Repo link**:
+**GitHub Repo link**: https://github.com/Jagadishgollapalli/Android_Pro23
 
 **Application Information:** <br>
 Test Credentials:<br>
@@ -49,6 +56,16 @@ Test Credentials:<br>
 •	Application should store the data in the prescribed data in the database<br>
 •	Application must allow only one booking for a user<br>
 
+  **Individual Contributions & Commits (Application Development Details)** <br>
+  
+  Neeha Beerkur
+  - Created the Xml file for login page enabling users to log in and modified intents. 
+  - Created the aboutUs.xml file and the implementation of corresponding Java code for navigation.
+  - Added the rating.xml file, contributing to the app's enhanced functionality it is used to provide the rating of the food or the usage of the 
+    app.
+  - Added the java code for the AboutUs class. Included the links to the Socialmedia platforms like facebook,Instagram and twitter.
+  - Implemented java code for the receive activity.
+  - Implemented functionality enabling seamless navigation to the receive page.
   
 
   
