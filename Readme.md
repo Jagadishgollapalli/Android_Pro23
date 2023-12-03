@@ -85,6 +85,14 @@ Test Credentials:<br>
   -  Modified the java code and implemented the list functionality for rating activity.<br>
   -  Worked in changing the look for the rating.xml file.<br>
   -  resolved errors related to crashing by modifiying the code in the respective java files.
+
+ - Jagadish Gollapalli
+ - Worked on functionality implementation for ReceiverActivity.java and enhanced all UI layouts.<br>
+ - Modified UI for all layouts(login, register, aboutUS and Customer support layouts)<br>
+ - Added functionality for donate activity with hardcoded values that allow users/donaters for donations.<br>
+ - Implemented the functionality for receiveActivity.java -  as part of submission i will be tracking the donations by donors and display it in receiver activity and allow receivers to select the donor and update the donor list.<br>
+ - Involved in the functionality changes for the rating activity.<br>
+ - Modified the java code(added extra functionality for donations tracking and update donations in receiver activity) for receiveActivity and receiveActivity.xml layout.
   
 
   
