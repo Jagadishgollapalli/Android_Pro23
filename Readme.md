@@ -9,9 +9,9 @@
 
 > **Team Members**
 
-1. Jagadish Gollapalli<br>
-2. SaiNandini Devabattula<br>
-3. Neeha Beerkur<br>
+1. Jagadish Gollapalli.<br>
+2. SaiNandini Devabattula.<br>
+3. Neeha Beerkur.<br>
 4. Divya Chelikani.<br>
 
 **Description** <br>
@@ -50,11 +50,11 @@ Our Android app, Save the Starve, serves as a vital platform addressing informat
 
 **Application Information:** <br>
 Test Credentials:<br>
-•	Application should be able to navigate through all the layouts<br>
-•	Application should be able to send the data to the database<br>
-•	Application should be able to fetch data from the database<br>
-•	Application should store the data in the prescribed data in the database<br>
-•	Application must allow only one booking for a user<br>
+•	Application should be able to navigate through all the layouts.<br>
+•	Application should be able to send the data to the database.<br>
+•	Application should be able to fetch data from the database.<br>
+•	Application should store the data in the prescribed data in the database.<br>
+•	Application must allow only one booking for a user.<br>
 
   **Individual Contributions & Commits (Application Development Details)** <br>
   
@@ -66,6 +66,14 @@ Test Credentials:<br>
   - Added the java code for the AboutUs class. Included the links to the Socialmedia platforms like facebook,Instagram and twitter.
   - Implemented java code for the receive activity.
   - Implemented functionality enabling seamless navigation to the receive page.
+
+ Divya Chelikani
+  -  Created the xml file for registration page, enabling users to register.<br>
+  -  Worked on creating the customer support.xml file and corresponding intents.<br>
+  -  Implemented the Java code for the customer support feature, enhancing the functionality of the application.<br>
+  -  Modified the Java code for the customer support.It used to provide the support for the user for any queries.<br>
+  -  Modified the layout structure and resolved errors for the Customer support.xml file.<br>
+  -  Modified the rating.xml file and resolved errors.
   
 
   
